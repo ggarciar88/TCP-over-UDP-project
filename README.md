@@ -72,18 +72,18 @@ tcp_over_udp_elite/
 
 ## Protocol Features
 
-### 1️⃣ Three-Way Handshake
+###  Three-Way Handshake
 Implements:
 - SYN
 - SYN-ACK
 - ACK
 
-### 2️⃣ Reliable Transmission
+###  Reliable Transmission
 - Timeout detection
 - Automatic retransmission
 - ACK validation
 
-### 3️⃣ Congestion Control (TCP Reno Inspired)
+###  Congestion Control (TCP Reno Inspired)
 
 Implements:
 
@@ -92,7 +92,7 @@ Implements:
 - ssthresh dynamic update
 - Timeout → cwnd reset to 1
 
-### 4️⃣ Packet Loss Simulation
+###  Packet Loss Simulation
 
 Simulated loss probability:
 
@@ -115,7 +115,7 @@ Compatible with Linux, macOS, and Windows (with Python installed).
 
 ## How to Run
 
-### 1️⃣ Start Server
+###  Start Server
 
 Open Terminal 1:
 
@@ -127,7 +127,7 @@ Server listens on:
 
 ---
 
-### 2️⃣ Start Client
+###  Start Client
 
 Open Terminal 2:
 
@@ -142,7 +142,7 @@ You will observe:
 
 ---
 
-### 3️⃣ Visualize Congestion Window
+###  Visualize Congestion Window
 
 After execution:
 
